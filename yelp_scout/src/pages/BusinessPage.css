@@ -1,0 +1,32 @@
+.upper-left,
+.upper-right,
+.bottom {
+    border: 0px solid black; /* Just for visualization */
+    box-sizing: border-box; /* Include border in width and height */
+}
+
+.upper-left {
+    position: absolute;
+    top: 180px; /* Adjust based on your navigation bar height */
+    left: 40px;
+    width: 50%; /* Adjust width as needed */
+    height: calc(50% - 80px); /* Adjust height as needed */
+}
+
+.upper-right {
+    position: absolute;
+    top: 180px; /* Adjust based on your navigation bar height */
+    right: 0;
+    width: 50%; /* Adjust width as needed */
+    height: calc(50% - 80px); /* Adjust height as needed */
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    top: 500px;
+    left: 40px;
+    width: 100%; /* Take full width */
+    height: 50%; /* Adjust height as needed */
+    text-align: center; /* Center text */
+}

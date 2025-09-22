@@ -1,0 +1,10 @@
+{
+  "rds_host": "project550.coxwx6fwsa3j.us-east-1.rds.amazonaws.com",
+  "rds_port": "3306",
+  "rds_user": "mingcao1",
+  "rds_password": "PassTheClass",
+  "rds_db": "yelp",
+  "server_host": "localhost",
+  "server_port": "8080"
+}
+
